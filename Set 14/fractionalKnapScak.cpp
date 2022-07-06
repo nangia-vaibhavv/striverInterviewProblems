@@ -8,9 +8,9 @@ class Solution
         return r1>r2;
     }
     //Function to get the maximum total value in the knapsack.
-    double fractionalKnapsack(int W, Item arr[], int n)
+    double fractionalKnapsack(int W, Item arr[], int n )
     {
-    //   sort on the basis on value per weight
+    //   sort on the basis on value per weight in kg
     double ans=0;
     sort(arr, arr+n,comp);
     for(int i=0;i<n;i++)
